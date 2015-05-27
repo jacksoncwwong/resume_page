@@ -102,13 +102,13 @@ padding:20px 0px;
 width:80%;
 }
 .module2 .facebook{
-background: url('../img/facebook.png');
+
 }
 .module2 .twitter{
-background: url('../img/twitter.png');
+
 }
-.module2 .instagram{
-background: url('../img/instagram.png');
+.module2 .linkedin{
+
 }
 .module2 .social{
 display: inline-block;
@@ -121,7 +121,19 @@ border-radius: 100%;
 height: 2.5em;
 width: 2.5em;
 border: none;
-margin-right: 5px;
+margin: 0 5px;
+text-align: center;
+}
+.module2 .social:hover{
+opacity: 0.8;
+}
+.module2 a:first-child{
+margin-left: -5px;
+}
+.module2 .social i {
+font-size: 16px;
+color: white;
+margin-top: 12px;
 }
 .resume-right {
 float:left;
